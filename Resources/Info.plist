@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Notchy</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.local.DynamicNotch</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Notchy</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Notchy requires permission to control system media playback.</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>Notchy requires Accessibility permissions to manage and click menu bar items.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Notchy requires Screen Recording permission to display window previews, capture recordings, and save instant replays.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Notchy listens to the music player's sound only to animate the equalizer bars. Nothing is recorded or saved.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Notchy requires Microphone access to record voice audio alongside screen recordings.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Notchy sends notifications when AI agents finish tasks and screen recordings are saved.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>Notchy requires access to the Downloads folder to save screen recordings and instant replays.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Notchy requires access to the Desktop folder to save screen recordings and instant replays.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Notchy requires access to the Documents folder to save screen recordings and instant replays.</string>
+	<key>NSRequiresAquaSystemAppearance</key>
+	<false/>
+</dict>
+</plist>

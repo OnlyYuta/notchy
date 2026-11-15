@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000010000000000000000001 /* AgentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000001 /* AgentModel.swift */; };
+		000010000000000000000002 /* AgentIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000002 /* AgentIcons.swift */; };
+		000010000000000000000003 /* AgentStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000003 /* AgentStatusService.swift */; };
+		000010000000000000000004 /* TranscriptWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000004 /* TranscriptWatcher.swift */; };
+		000010000000000000000005 /* NotchyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000005 /* NotchyApp.swift */; };
+		000010000000000000000006 /* NotchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000006 /* NotchyView.swift */; };
+		000010000000000000000007 /* NotchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000007 /* NotchManager.swift */; };
+		000010000000000000000008 /* NotchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000008 /* NotchPanel.swift */; };
+		00001000000000000000F000 /* AgentConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F000 /* AgentConnections.swift */; };
+		00001000000000000000F001 /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F001 /* SettingsTabView.swift */; };
+		00001000000000000000F002 /* AppSettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F002 /* AppSettingsWindowController.swift */; };
+		00001000000000000000F100 /* FileConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F100 /* FileConverter.swift */; };
+		00001000000000000000F101 /* ConversionDropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F101 /* ConversionDropOverlay.swift */; };
+		00001000000000000000F200 /* Translations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000F200 /* Translations.swift */; };
+		000010000000000000000009 /* NotchShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000009 /* NotchShape.swift */; };
+		00001000000000000000000A /* NotchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000A /* NotchViewModel.swift */; };
+		00001000000000000000000B /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000B /* NotchWindowController.swift */; };
+		00001000000000000000000C /* NowPlayingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000C /* NowPlayingService.swift */; };
+		00001000000000000000000D /* MusicVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000D /* MusicVisualizerView.swift */; };
+		00001000000000000000000E /* TrackArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000E /* TrackArtworkView.swift */; };
+		00001000000000000000000F /* MediaArtworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000000F /* MediaArtworkService.swift */; };
+		000010000000000000000010 /* ClipboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000010 /* ClipboardModel.swift */; };
+		000010000000000000000011 /* ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000011 /* ClipboardService.swift */; };
+		000010000000000000000012 /* ClipboardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000012 /* ClipboardTabView.swift */; };
+		000010000000000000000016 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000016 /* LocalizationService.swift */; };
+		000010000000000000000017 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000017 /* NotificationService.swift */; };
+		000010000000000000000018 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000018 /* SettingsService.swift */; };
+		000010000000000000000019 /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000019 /* AppSettingsView.swift */; };
+		000010000000000000000020 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000020 /* PermissionManager.swift */; };
+		000010000000000000000021 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000021 /* OnboardingView.swift */; };
+		000010000000000000000022 /* OnboardingWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000022 /* OnboardingWindowController.swift */; };
+		000010000000000000000023 /* ScreenRecorderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000023 /* ScreenRecorderSettings.swift */; };
+		000010000000000000000024 /* ReplayBufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000024 /* ReplayBufferManager.swift */; };
+		000010000000000000000025 /* ScreenRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000025 /* ScreenRecorderService.swift */; };
+		000010000000000000000026 /* GlobalHotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000026 /* GlobalHotkeyManager.swift */; };
+		000010000000000000000027 /* ShortcutRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000027 /* ShortcutRecorderView.swift */; };
+		000010000000000000000028 /* RecordTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000028 /* RecordTabView.swift */; };
+		000010000000000000000029 /* AgentHookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000029 /* AgentHookManager.swift */; };
+		00001000000000000000002A /* AgentEventsWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00002000000000000000002A /* AgentEventsWatcher.swift */; };
+		000010000000000000000309 /* AntigravityLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000309 /* AntigravityLogo.png */; };
+		000010000000000000000310 /* ClaudeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000310 /* ClaudeLogo.png */; };
+		000010000000000000000311 /* CodexLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000311 /* CodexLogo.png */; };
+		000010000000000000000312 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000312 /* AppIcon.icns */; };
+		000010000000000000000313 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000313 /* AppIcon.png */; };
+		000010000000000000000314 /* notchy-hook.pl in Resources */ = {isa = PBXBuildFile; fileRef = 000020000000000000000314 /* notchy-hook.pl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000020000000000000000001 /* AgentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentModel.swift; sourceTree = "<group>"; };
+		000020000000000000000002 /* AgentIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentIcons.swift; sourceTree = "<group>"; };
+		000020000000000000000003 /* AgentStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentStatusService.swift; sourceTree = "<group>"; };
+		000020000000000000000004 /* TranscriptWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptWatcher.swift; sourceTree = "<group>"; };
+		000020000000000000000005 /* NotchyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchyApp.swift; sourceTree = "<group>"; };
+		000020000000000000000006 /* NotchyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchyView.swift; sourceTree = "<group>"; };
+		000020000000000000000007 /* NotchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchManager.swift; sourceTree = "<group>"; };
+		000020000000000000000008 /* NotchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanel.swift; sourceTree = "<group>"; };
+		00002000000000000000F000 /* AgentConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentConnections.swift; sourceTree = "<group>"; };
+		00002000000000000000F001 /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		00002000000000000000F002 /* AppSettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsWindowController.swift; sourceTree = "<group>"; };
+		00002000000000000000F100 /* FileConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConverter.swift; sourceTree = "<group>"; };
+		00002000000000000000F101 /* ConversionDropOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionDropOverlay.swift; sourceTree = "<group>"; };
+		00002000000000000000F200 /* Translations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translations.swift; sourceTree = "<group>"; };
+		000020000000000000000009 /* NotchShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchShape.swift; sourceTree = "<group>"; };
+		00002000000000000000000A /* NotchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchViewModel.swift; sourceTree = "<group>"; };
+		00002000000000000000000B /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		00002000000000000000000C /* NowPlayingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingService.swift; sourceTree = "<group>"; };
+		00002000000000000000000D /* MusicVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVisualizerView.swift; sourceTree = "<group>"; };
+		00002000000000000000000E /* TrackArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackArtworkView.swift; sourceTree = "<group>"; };
+		00002000000000000000000F /* MediaArtworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaArtworkService.swift; sourceTree = "<group>"; };
+		000020000000000000000010 /* ClipboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardModel.swift; sourceTree = "<group>"; };
+		000020000000000000000011 /* ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardService.swift; sourceTree = "<group>"; };
+		000020000000000000000012 /* ClipboardTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardTabView.swift; sourceTree = "<group>"; };
+		000020000000000000000016 /* LocalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationService.swift; sourceTree = "<group>"; };
+		000020000000000000000017 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		000020000000000000000018 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		000020000000000000000019 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		000020000000000000000020 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		000020000000000000000021 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		000020000000000000000022 /* OnboardingWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWindowController.swift; sourceTree = "<group>"; };
+		000020000000000000000023 /* ScreenRecorderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorderSettings.swift; sourceTree = "<group>"; };
+		000020000000000000000024 /* ReplayBufferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayBufferManager.swift; sourceTree = "<group>"; };
+		000020000000000000000025 /* ScreenRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecorderService.swift; sourceTree = "<group>"; };
+		000020000000000000000026 /* GlobalHotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkeyManager.swift; sourceTree = "<group>"; };
+		000020000000000000000027 /* ShortcutRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRecorderView.swift; sourceTree = "<group>"; };
+		000020000000000000000028 /* RecordTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTabView.swift; sourceTree = "<group>"; };
+		000020000000000000000029 /* AgentHookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentHookManager.swift; sourceTree = "<group>"; };
+		00002000000000000000002A /* AgentEventsWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentEventsWatcher.swift; sourceTree = "<group>"; };
+		0000200000000000000003E7 /* Notchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000020000000000000000309 /* AntigravityLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AntigravityLogo.png; sourceTree = "<group>"; };
+		000020000000000000000310 /* ClaudeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClaudeLogo.png; sourceTree = "<group>"; };
+		000020000000000000000311 /* CodexLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CodexLogo.png; sourceTree = "<group>"; };
+		000020000000000000000312 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		000020000000000000000313 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		000020000000000000000314 /* notchy-hook.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "notchy-hook.pl"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000030000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000030000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000010000000000000000309 /* AntigravityLogo.png in Resources */,
+				000010000000000000000310 /* ClaudeLogo.png in Resources */,
+				000010000000000000000311 /* CodexLogo.png in Resources */,
+				000010000000000000000312 /* AppIcon.icns in Resources */,
+				000010000000000000000313 /* AppIcon.png in Resources */,
+				000010000000000000000314 /* notchy-hook.pl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		000040000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				000040000000000000000002 /* Sources */,
+				000040000000000000000003 /* Resources */,
+				000040000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000040000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				000020000000000000000001 /* AgentModel.swift */,
+				000020000000000000000002 /* AgentIcons.swift */,
+				000020000000000000000003 /* AgentStatusService.swift */,
+				000020000000000000000004 /* TranscriptWatcher.swift */,
+				000020000000000000000005 /* NotchyApp.swift */,
+				000020000000000000000006 /* NotchyView.swift */,
+				000020000000000000000007 /* NotchManager.swift */,
+				000020000000000000000008 /* NotchPanel.swift */,
+				00002000000000000000F000 /* AgentConnections.swift */,
+				00002000000000000000F001 /* SettingsTabView.swift */,
+				00002000000000000000F002 /* AppSettingsWindowController.swift */,
+				00002000000000000000F100 /* FileConverter.swift */,
+				00002000000000000000F101 /* ConversionDropOverlay.swift */,
+				00002000000000000000F200 /* Translations.swift */,
+				000020000000000000000009 /* NotchShape.swift */,
+				00002000000000000000000A /* NotchViewModel.swift */,
+				00002000000000000000000B /* NotchWindowController.swift */,
+				00002000000000000000000C /* NowPlayingService.swift */,
+				00002000000000000000000D /* MusicVisualizerView.swift */,
+				00002000000000000000000E /* TrackArtworkView.swift */,
+				00002000000000000000000F /* MediaArtworkService.swift */,
+				000020000000000000000010 /* ClipboardModel.swift */,
+				000020000000000000000011 /* ClipboardService.swift */,
+				000020000000000000000012 /* ClipboardTabView.swift */,
+				000020000000000000000016 /* LocalizationService.swift */,
+				000020000000000000000017 /* NotificationService.swift */,
+				000020000000000000000018 /* SettingsService.swift */,
+				000020000000000000000019 /* AppSettingsView.swift */,
+				000020000000000000000020 /* PermissionManager.swift */,
+				000020000000000000000021 /* OnboardingView.swift */,
+				000020000000000000000022 /* OnboardingWindowController.swift */,
+				000020000000000000000023 /* ScreenRecorderSettings.swift */,
+				000020000000000000000024 /* ReplayBufferManager.swift */,
+				000020000000000000000025 /* ScreenRecorderService.swift */,
+				000020000000000000000026 /* GlobalHotkeyManager.swift */,
+				000020000000000000000027 /* ShortcutRecorderView.swift */,
+				000020000000000000000028 /* RecordTabView.swift */,
+				000020000000000000000029 /* AgentHookManager.swift */,
+				00002000000000000000002A /* AgentEventsWatcher.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		000040000000000000000003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				000020000000000000000378 /* Info.plist */,
+				000020000000000000000309 /* AntigravityLogo.png */,
+				000020000000000000000310 /* ClaudeLogo.png */,
+				000020000000000000000311 /* CodexLogo.png */,
+				000020000000000000000312 /* AppIcon.icns */,
+				000020000000000000000313 /* AppIcon.png */,
+				000020000000000000000314 /* notchy-hook.pl */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		000040000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000200000000000000003E7 /* Notchy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000050000000000000000001 /* Notchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000060000000000000000001 /* Build configuration list for PBXNativeTarget "Notchy" */;
+			buildPhases = (
+				000070000000000000000001 /* Sources */,
+				000030000000000000000001 /* Frameworks */,
+				000030000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notchy;
+			productName = Notchy;
+			productReference = 0000200000000000000003E7 /* Notchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000080000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 000060000000000000000002 /* Build configuration list for PBXProject "Notchy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000040000000000000000001;
+			productRefGroup = 000040000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000050000000000000000001 /* Notchy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000070000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000010000000000000000001 /* AgentModel.swift in Sources */,
+				000010000000000000000002 /* AgentIcons.swift in Sources */,
+				000010000000000000000003 /* AgentStatusService.swift in Sources */,
+				000010000000000000000004 /* TranscriptWatcher.swift in Sources */,
+				000010000000000000000005 /* NotchyApp.swift in Sources */,
+				000010000000000000000006 /* NotchyView.swift in Sources */,
+				000010000000000000000007 /* NotchManager.swift in Sources */,
+				000010000000000000000008 /* NotchPanel.swift in Sources */,
+				00001000000000000000F000 /* AgentConnections.swift in Sources */,
+				00001000000000000000F001 /* SettingsTabView.swift in Sources */,
+				00001000000000000000F002 /* AppSettingsWindowController.swift in Sources */,
+				00001000000000000000F100 /* FileConverter.swift in Sources */,
+				00001000000000000000F101 /* ConversionDropOverlay.swift in Sources */,
+				00001000000000000000F200 /* Translations.swift in Sources */,
+				000010000000000000000009 /* NotchShape.swift in Sources */,
+				00001000000000000000000A /* NotchViewModel.swift in Sources */,
+				00001000000000000000000B /* NotchWindowController.swift in Sources */,
+				00001000000000000000000C /* NowPlayingService.swift in Sources */,
+				00001000000000000000000D /* MusicVisualizerView.swift in Sources */,
+				00001000000000000000000E /* TrackArtworkView.swift in Sources */,
+				00001000000000000000000F /* MediaArtworkService.swift in Sources */,
+				000010000000000000000010 /* ClipboardModel.swift in Sources */,
+				000010000000000000000011 /* ClipboardService.swift in Sources */,
+				000010000000000000000012 /* ClipboardTabView.swift in Sources */,
+				000010000000000000000016 /* LocalizationService.swift in Sources */,
+				000010000000000000000017 /* NotificationService.swift in Sources */,
+				000010000000000000000018 /* SettingsService.swift in Sources */,
+				000010000000000000000019 /* AppSettingsView.swift in Sources */,
+				000010000000000000000020 /* PermissionManager.swift in Sources */,
+				000010000000000000000021 /* OnboardingView.swift in Sources */,
+				000010000000000000000022 /* OnboardingWindowController.swift in Sources */,
+				000010000000000000000023 /* ScreenRecorderSettings.swift in Sources */,
+				000010000000000000000024 /* ReplayBufferManager.swift in Sources */,
+				000010000000000000000025 /* ScreenRecorderService.swift in Sources */,
+				000010000000000000000026 /* GlobalHotkeyManager.swift in Sources */,
+				000010000000000000000027 /* ShortcutRecorderView.swift in Sources */,
+				000010000000000000000028 /* RecordTabView.swift in Sources */,
+				000010000000000000000029 /* AgentHookManager.swift in Sources */,
+				00001000000000000000002A /* AgentEventsWatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000090000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000090000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		000090000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.DynamicNotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000090000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.DynamicNotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000060000000000000000001 /* Build configuration list for PBXNativeTarget "Notchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000090000000000000000003 /* Debug */,
+				000090000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000060000000000000000002 /* Build configuration list for PBXProject "Notchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000090000000000000000001 /* Debug */,
+				000090000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000080000000000000000001 /* Project object */;
+}
